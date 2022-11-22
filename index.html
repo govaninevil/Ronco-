@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Ronco</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/easy-responsive-tabs.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+
+<body>
+	<!-- navbar start -->
+	<header>	
+		<div class="top-nav">
+			<div class="custom-container">
+				<div class="left">
+					<div class="call-box">
+						<img src="image/call.png">
+						<div class="text">
+							Call us
+							<a href="tel:1.877.663.7735">1.877.663.7735</a>
+						</div>	
+					</div>
+					<div class="mail-box">
+						<i class="fa-regular fa-envelope"></i>
+						<div class="text">
+							Sand Us Mail
+							<a href="mailto:contactus@roncosafety.com">contactus@roncosafety.com</a>
+						</div>	
+					</div>
+				</div>
+				<div class="right">
+					<div class="language-box">
+						<img src="image/india-flag.png" alt="india-flag">
+						<div class="text">
+							<p>Country</p>
+							<div class="lang-dropdwon">
+								<button class="dropdown-btn" onclick="langbox()">India <i class="fa-solid fa-angle-down"></i></button>
+								<div class="dropdown-contant" id="lang-dropdown">
+									<a href="#">America</a>
+									<a href="#">Canada</a>
+									<a href="#">Japan</a>									
+								</div>
+							</div>
+						</div>	 
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main-nav">
+			<div class="custom-container">
+				<div class="logo">
+					<a href="#"><img src="image/logo.png">
+					</a>
+				</div>
+				<div class="menu">
+					<div class="nev">
+						<nav class="navbar navbar-expand-lg navbar-light">
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item dropdown">
+										<a class="nav-link" aria-current="page" href="#">Home</a>
+									</li>
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+										data-bs-toggle="dropdown" aria-expanded="false">
+										About us
+									</a>
+									<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li class="dropdown-item">
+											<ul>
+												<span class="title"><img src="image/head-product.png"> Head Protection</span>
+												<li class="frist"><a href="#">Eye Protection</a></li>
+												<li><a href="#">Related Products</a></li>
+												<li><a href="#">Hair Coverings</a></li>
+												<li><a href="#">Respiratory Protectiona</a></li>
+												<li><a href="#">Hearing Protection</a></li>
+											</ul>
+										</li>
+										<li class="dropdown-item">
+											<ul>
+												<span class="title"><img src="image/hand-product.png"> Hand Protection</span>
+												<li class="frist"><a href="#">Disposable Gloves</a></li>
+												<li><a href="#">Reusable Gloves</a></li>
+												<li><a href="#">Specialty Gloves</a></li>
+											</ul>	
+										</li>
+										<li class="dropdown-item flex">
+											<ul>
+												<span class="title"><img src="image/head-product.png"> Body Protection</span>
+												<li class="frist"><a href="#">Coveralls</a></li>
+												<li class="frist"><a href="#">Aprons</a></li>
+												<li><a href="#">Gowns</a></li>
+												<li><a href="#">Labcoats</a></li>
+												<li><a href="#">Shirts & Pants</a></li>
+												<li><a href="#">Sleeves</a></li>
+												<li><a href="#">Shoe Covers</a></li>
+												<li><a href="#">Thermal Wear</a></li>
+												<li><a href="#">HiViz Wear</a></li>
+											</ul>
+										</li>
+										<div class="bottom">
+											<div class="left">
+												Lorem Ipsum is simply dummy text of the printing.
+											</div>
+											<div class="right">
+												<a href="#">Contact Us <i class="fa-solid fa-arrow-right"></i></a>
+											</div>
+										</div>
+									</ul>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" aria-current="page" href="#">Industries</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#" aria-current="page">
+										Products
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Media Centres</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contact us</a>
+								</li>
+							</ul>
+						</div>		
+					</nav>
+				</div>
+			</div>
+			<div class="right">
+			<!-- <div class="search-bar">
+				<input type="text" placeholder="Search.." name="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</div> -->
+			<div class="lang-box">
+				<div class="dropdown">
+					<button type="button" class="btn dropdown-toggle" data-toggle="dropdown" >
+						<img src="https://demo.intech-systems.com/wp-content/uploads/2022/02/globe.png"> EN <i class="fa fa-angle-down" aria-hidden="true"></i>
+					</button>
+					<div class="dropdown-menu">
+						<li><a class="dropdown-item" href="#">EN</a></li>
+						<li><a class="dropdown-item" href="#">GR</a></li>
+						<li><a class="dropdown-item" href="#">JP</a></li>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mobile-nav" id="mobile">
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</header>
+	<!-- nevbar ends -->
+	<!-- slider start -->
+	<div class="slider">
+		<div class="container-fluid">
+			<div id="banner-slider" class="owl-carousel owl-theme" >
+				<div class="item">
+					<img src="image/slider-img.png" alt="" class="d-block" style="width:100%">
+					<div class="slider-text">
+						<p class="sub-title">Welcome to RONCO</p>
+						<h2>Canada Safety Division</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="link">
+							<a href="#">About us</a>
+							<a href="#">Contact us</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="image/slider-img.png" alt="" class="d-block" style="width:100%">
+					<div class="slider-text">
+						<p class="sub-title">Welcome to RONCO</p>
+						<h2>Canada Safety Division</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="link">
+							<a href="#">About us</a>
+							<a href="#">Contact us</a>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img src="image/slider-img.png" alt="" class="d-block" style="width:100%">
+					<div class="slider-text">
+						<p class="sub-title">Welcome to RONCO</p>
+						<h2>Canada Safety Division</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+						</p>
+						<div class="link">
+							<a href="#">About us</a>
+							<a href="#">Contact us</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- slider ends -->
+	
+	<!-- our product start -->
+	<div class="custom-section-top product">
+		<div class="custom-container">
+			<div class="title">
+				<h2>Our Products</h2>
+			</div>
+			<div id="parentHorizontalTab">
+				<ul class="resp-tabs-list hor_1">
+					<li><img src="image/head-product.png" alt="head-product"><h4>Head Protection</h4></li>
+					<li><img src="image/hand-product.png" alt="hand-product"><h4>Hand Protection</h4></li>
+					<li><img src="image/body-product.png" alt="body-product"><h4>Body Protection</h4></li>
+				</ul>
+				<div class="resp-tabs-container hor_1">
+					<div>
+						<div class="left">
+							<h4>Head Protection</h4>
+							<p>RONCO protects your employees from head injury where sight, hearing or respiratory systems might be compromised.</p>
+							<span>We have a diverse range of products for various degrees of head and face protection. RONCO also offers hygienic headwear to protect processes from contamination in environments where appropriate protective over-clothing is required.</span>
+							<ul>
+								<li>Eye Protection</li>
+								<li>Hair Coverings</li>
+								<li>Hearing Protection</li>
+								<li>Related Products</li>
+								<li>Respiratory Protection</li>
+							</ul>
+							<div class="button">
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="right">
+							<img src="image/product-section-img.png" alt="product-section-img">
+						</div>	
+					</div>
+					<div>
+						<div class="left">
+							<h4>Hand Protection</h4>
+							<p>RONCO protects your employees from head injury where sight, hearing or respiratory systems might be compromised.</p>
+							<span>We have a diverse range of products for various degrees of head and face protection. RONCO also offers hygienic headwear to protect processes from contamination in environments where appropriate protective over-clothing is required.</span>
+							<ul>
+								<li>Eye Protection</li>
+								<li>Hair Coverings</li>
+								<li>Hearing Protection</li>
+								<li>Related Products</li>
+								<li>Respiratory Protection</li>
+							</ul>
+							<div class="button">
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="right">
+							<img src="image/product-section-img.png" alt="product-section-img">
+						</div>
+					</div>
+					<div>
+						<div class="left">
+							<h4>Body Protection</h4>
+							<p>RONCO protects your employees from head injury where sight, hearing or respiratory systems might be compromised.</p>
+							<span>We have a diverse range of products for various degrees of head and face protection. RONCO also offers hygienic headwear to protect processes from contamination in environments where appropriate protective over-clothing is required.</span>
+							<ul>
+								<li>Eye Protection</li>
+								<li>Hair Coverings</li>
+								<li>Hearing Protection</li>
+								<li>Related Products</li>
+								<li>Respiratory Protection</li>
+							</ul>
+							<div class="button">
+								<a href="#">Read More</a>
+							</div>
+						</div>
+						<div class="right">
+							<img src="image/product-section-img.png" alt="product-section-img">
+						</div>	
+					</div>
+				</div>
+			</div>	
+		</div>
+	</div>
+	<!-- our product end -->
+	<!-- About us start -->
+	<div class="custom-section-top about">
+		<div class="custom-container">
+			<div class="title">
+				<h2>About us</h2>
+			</div> 
+			<h4>RONCO is a world-class manufacturer of personal<br> protective equipment (PPE). </h4>
+			<p>We have a diverse range of products for various degrees of head and face protection. RONCO also offers hygienic headwear to protect processes from contamination in environments where appropriate protective over-clothing is required.</p>
+			<div class="divider">
+				<div class="left">
+					<img src="image/about-us-img-1.png" alt="about-us-img-1">
+					<p>To provide consistent quality products</p>
+				</div>
+				<div class="right">
+					<img src="image/about-us-img-2.png" alt="about-us-img-2">
+					<p>To ensure excellent service levels</p>
+				</div>	
+			</div>
+		</div>	
+	</div>
+	<!-- About us start -->
+	<!-- Certifications start -->
+	<div class="custom-section-top certification">
+		<div class="custom-container">
+			<div class="title">
+				<h2>Certifications</h2>
+			</div>
+			<div class="contant">
+				<div class="box">
+					<div class="img">
+						<img src="image/iso-mark.png" alt="iso-mark">
+					</div>
+					<div class="name">
+						ISO 9001:2015
+					</div>
+				</div>
+				<div class="box">
+					<div class="img">
+						<img src="image/claen-safe.png" alt="claen-safe">
+					</div>
+					<div class="name">
+						Clean ,Safe Guarantee
+					</div>
+				</div>
+				<div class="box">
+					<div class="img">
+						<img src="image/quality.png" alt="quality">
+					</div>
+					<div class="name">
+						RONCO Quality Policy
+					</div>
+				</div>
+				<div class="box">
+					<div class="img">
+						<img src="image/iso-mark-2.png" alt="iso-mark-2">
+					</div>
+					<div class="name">
+						ISO 13485:2016
+					</div>
+				</div>
+				<div class="box">
+					<div class="img">
+						<img src="image/medical.png" alt="medical">
+					</div>
+					<div class="name">
+						Medical Device Establishment Licence 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Certifications end-->
+	<!-- made in canada start -->
+	<div class="custom-section-top made">
+		<div class="contant">
+			<div class="custom-section">
+				<div class="custom-container">
+					<div class="text">
+						<span>Made in Canada</span>
+						<h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- made in canada end -->
+	<!-- news-blog start -->
+	<div class="custom-section-top news">
+		<div class="custom-container">
+			<div class="title">
+				<h2>News & blog</h2>
+			</div>
+			<div class="line a">
+				<div class="left">
+					<img src="image/news-img-1.png">
+				</div>
+				<div class="right">
+					<span>October 8, 2020</span>
+					<h2>What are the Different Type of Face<br>Masks, and What Should I Wear?</h2>
+					<p>What are the Different Type of Face Masks, and What Should I Wear? Are face masks necessary? According to health experts, the answer is a resounding. <a href="#">Read More</a></p>
+				</div>
+			</div>
+			<div class="line b">
+				<div class="left">
+					<span>August 20, 2016</span>
+					<h2>RONCO CARE disposable gloves in a new smarter packaging format</h2>
+					<p>More efficient packaging solution - 200 gloves in a standard size box - it's environmental friendly and reduces your transportation and storage costs. <a href="#">Read More</a></p>
+				</div>
+				<div class="right">
+					<img src="image/news-img-2.png">
+				</div>
+			</div>
+			<div class="line b mobile">
+				<div class="right">
+					<img src="image/news-img-2.png">
+				</div>
+				<div class="left">
+					<span>August 20, 2016</span>
+					<h2>RONCO CARE disposable gloves in a new smarter packaging format</h2>
+					<p>More efficient packaging solution - 200 gloves in a standard size box - it's environmental friendly and reduces your transportation and storage costs. <a href="#">Read More</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- news-blog start -->
+	<!-- Sustainability start -->
+	<div class="custom-section-top Sustainability">
+		<div class="contant">
+			<h2>Sustainability</h2>
+			<p>RONCO is committed to sustaining the environment through product innovations and an environmentally and socially responsible corporate culture.</p>
+			<div class="bt">
+				<a href="#">Read More</a>
+			</div>
+		</div>
+	</div>
+	<!-- Sustainability end -->
+	<!-- Industry start -->
+	<div class="custom-section-top industry">
+		<div class="custom-container">
+			<div class="title">
+				<h2>Industry</h2>
+			</div>
+			<div class="contant" >
+				<div class="industry box active">
+					<div class="text">
+						<span></span><a href="#">Industrial</a>
+					</div>
+				</div>
+				<div class="healthcare box">
+					<div class="text">
+						<span></span><a href="#">Healthcare</a>
+					</div>
+				</div>
+				<div class="food box">
+					<div class="text">
+						<span></span><a href="#">Food</a>
+					</div>
+				</div>
+			</div>
+			<div id="industry-slider" class="owl-carousel owl-theme">
+				<div class="item">
+					<img src="image/industry-client-img-1.webp">
+				</div>
+				<div class="item">
+					<img src="image/industry-client-img-2.webp">
+				</div>
+				<div class="item">
+					<img src="image/industry-client-img-3.webp">
+				</div>
+				<div class="item">
+					<img src="image/industry-client-img-1.webp">
+				</div>
+				<div class="item">
+					<img src="image/industry-client-img-2.webp">
+				</div>
+				<div class="item">
+					<img src="image/industry-client-img-3.webp">
+				</div>
+			</div>	
+		</div>	
+	</div>
+	<!-- Industry end -->
+	<!-- footer start -->
+	<footer>
+		<div class="custom-container">
+			<div class="top-row">
+				<div class="footer-logo">
+					<a href="#" class="white"><img src="image/footer-logo.png" alt="footer-logo"></a>
+				</div>
+				<div class="footer-nav">
+					<ul>
+						<li><a href="#" class="white">Home</a></li>
+						<li><a href="#" class="white">About us</a></li>
+						<li><a href="#" class="white">Products</a></li>
+						<li><a href="#" class="white">Media Center</a></li>
+						<li><a href="#" class="white">Contact us</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom-footer">
+				<div class="social-media">
+					<p>The industry standard dummy text ever since the 1500s Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+					<div class="social-icon">
+						<ul>
+							<li><a href="#" class="white"><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href="#" class="white"><i class="fa-brands fa-youtube"></i></a></li>
+							<li><a href="#" class="white"><i class="fa-brands fa-twitter"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="protection">
+					<ul>
+						<li><a href="#" class="white">Head Protection</a></li>
+						<li><a href="#" class="white">Hand Protection</a></li>
+						<li><a href="#" class="white">Body Protection</a></li>
+					</ul>
+				</div>
+				<div class="industry">
+					<ul>
+						<li><a href="#" class="white">Food</a></li>
+						<li><a href="#" class="white">Industry</a></li>
+						<li><a href="#" class="white">Healthcare</a></li>
+					</ul>
+				</div>
+				<div class="contact">
+					<div class="phone">
+						<i class="fa-solid fa-phone"></i>
+						<a href="tel:1.877.663.7735" class="white">1.877.663.7735</a>
+					</div>
+					<div class="mail">
+						<i class="fa-solid fa-envelope"></i>
+						<a href="mailto:contactus@roncosafety.com" class="white">contactus@roncosafety.com</a>
+					</div>
+					<div class="add">
+						<i class="fa-solid fa-location-dot"></i>
+						<p>Head Office, 70 Planchet Road, Concord, Ontario, L4K 2C7</p>
+					</div>
+				</div>
+			</div>
+			<div class="condition">
+				<div class="left">
+					© 2021 RONCO. All Rights Reserved.
+				</div>
+				<div class="right">
+					<a href="#" class="white">Privacy Police</a>
+					<a href="#" class="white">Terms of Use</a>
+					<a href="#" class="white">Site map</a>
+				</div>
+			</div>	
+		</div>
+	</footer>
+	<!-- footer end -->
+	<script src="https://kit.fontawesome.com/884533464b.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>	
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/easyResponsiveTabs.js"></script>
+	<script src="js/script.js"></script>
+</body>
